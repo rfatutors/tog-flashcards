@@ -30,7 +30,7 @@
     return;
   }
   var id = qs.get('id');
-  location.replace('./' + doc + '/' + (id ? '?id=' + encodeURIComponent(id) : '') + location.hash);
+  location.replace('./' + doc + '/?' + (id ? 'id=' + encodeURIComponent(id) + '&' : '') + 'v=' + Date.now() + location.hash);   /* fresh copy every time (Telegram caches) */
 })();
 </script>
 </body>
