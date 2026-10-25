@@ -6,7 +6,7 @@ window.RFA_CONFIG = {
   "quiz": false,
   "quizStartOn": false,
   "gateReveal": false,
-  "watermark": true,
+  "watermark": false,
   "watermarkText": "",
   "strongWatermark": true,
   "blockPrint": true,
