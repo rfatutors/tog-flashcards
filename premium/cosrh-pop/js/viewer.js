@@ -728,7 +728,7 @@ function finishAnalysis() {
   }
   if (TIMER_ON && EXAM_SECS > 0 && !state.timer.shown) { timerSetup(); }
   if (activeQuery) { runSearch(); }
-  if (!state.outline.length) { toast('No question headings found — reading tools are still available.', 2600); }
+  if (QUIZ_ON && !state.outline.length) { toast('No question headings found — reading tools are still available.', 2600); }
 }
 
 function applyRestoredAnswers() {
