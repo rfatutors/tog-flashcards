@@ -76,7 +76,6 @@
   document.addEventListener('DOMContentLoaded', function () {
     hello();
     if (!id) { banner('Please open this document from the RFA Tutors link in your Telegram group.', true); return; }
-    banner('Your copy ' + id + ' · every opening is recorded for RFA Tutors.', false);
-    setTimeout(askCount, 2500);
+    /* owner, 25 Oct 2026: no banner for the reader; openings are still recorded (hello + viewer reports) */
   });
 })();
