@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RFA Tutors Library</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  body { margin: 0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: #12345a; color: #fff; display: flex; min-height: 100vh; align-items: center; justify-content: center; text-align: center; padding: 0 16px; }
+  p { max-width: 28em; }
+</style>
+</head>
+<body>
+<p id="msg">Opening your document…</p>
+<script>
+/* RFA premium library opener (owner, 25 Oct 2026).
+   One Telegram Mini App for every premium document: t.me/<bot>/library?startapp=<doc>.
+   Telegram hands the doc name to this page as start_param; we go to /premium/<doc>/ and keep
+   the #tgWebAppData hash so the document page still receives the member's signed identity.
+   Outside Telegram, /premium/?doc=<doc>&id=<ID> works the same way. */
+(function () {
+  var tg = window.Telegram && window.Telegram.WebApp, doc = '';
+  try { if (tg) { tg.ready(); tg.expand(); doc = (tg.initDataUnsafe && tg.initDataUnsafe.start_param) || ''; } } catch (e) { }
+  if (!doc) { var m = /[#&]tgWebAppStartParam=([^&]+)/.exec(location.hash); if (m) { doc = decodeURIComponent(m[1]); } }
+  var qs = new URLSearchParams(location.search);
+  if (!doc) { doc = qs.get('doc') || qs.get('startapp') || ''; }
+  doc = String(doc).toLowerCase();
+  if (!/^[a-z0-9][a-z0-9-]{1,40}$/.test(doc)) {
+    document.getElementById('msg').textContent = 'Please open a document from the RFA Tutors link in your Telegram group.';
+    return;
+  }
+  var id = qs.get('id');
+  location.replace('./' + doc + '/' + (id ? '?id=' + encodeURIComponent(id) : '') + location.hash);
+})();
+</script>
+</body>
+</html>
