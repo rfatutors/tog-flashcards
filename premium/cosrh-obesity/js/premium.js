@@ -14,6 +14,12 @@
      identity - that becomes the ID (TG<user id>) and the name. Otherwise the ID comes from ?id= in the link. */
   var tg = null, tgUser = null, tgName = '', initData = '';
   try { tg = window.Telegram && window.Telegram.WebApp; tgUser = tg && tg.initDataUnsafe && tg.initDataUnsafe.user; initData = (tg && tg.initData) || ''; if (tg && tg.ready) { tg.ready(); } if (tg && tg.expand) { tg.expand(); } } catch (eT) { tgUser = null; }
+  /* owner, 25 Oct 2026: Telegram Desktop opens Mini Apps in a small window - ask for full screen there
+     (Bot API 8.0+). Phones already open full height, so they are left alone. */
+  try {
+    var plat = String((tg && tg.platform) || '').toLowerCase();
+    if (tg && tg.requestFullscreen && (!tg.isVersionAtLeast || tg.isVersionAtLeast('8.0')) && /^(macos|tdesktop|weba|webk|web)$/.test(plat)) { tg.requestFullscreen(); }
+  } catch (eF) { }
   var id = '';
   if (tgUser && tgUser.id) {
     id = 'TG' + String(tgUser.id);
