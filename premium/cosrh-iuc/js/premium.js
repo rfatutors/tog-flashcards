@@ -29,7 +29,8 @@
     try { if (id) { window.localStorage.setItem(KEY, id); } else { id = String(window.localStorage.getItem(KEY) || ''); } } catch (e) { }
   }
   window.RFA_PREMIUM_ID = id;
-  C.watermarkText = C.watermarkText || 'RFA Tutors premium';
+  /* owner, 25 Oct 2026: no 'RFA Tutors' words in the watermark - its first line is the reader (Telegram name, else the ID) */
+  C.watermarkText = (tgName ? tgName.split(' @')[0] : '') || id || 'Reader';
 
   var data = {}, store = 'rfa.premium.cmi.' + String(C.id || 'DOC') + '.' + id;
   try { data = JSON.parse(window.localStorage.getItem(store) || '{}') || {}; } catch (e2) { data = {}; }

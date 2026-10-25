@@ -7,7 +7,7 @@ window.RFA_CONFIG = {
   "quizStartOn": false,
   "gateReveal": false,
   "watermark": true,
-  "watermarkText": "RFA Tutors premium",
+  "watermarkText": "",
   "strongWatermark": true,
   "blockPrint": true,
   "readAloud": false,
