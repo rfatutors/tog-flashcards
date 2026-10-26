@@ -13,13 +13,27 @@
   /* Opened inside Telegram (a Mini App link posted in the group): Telegram hands the page the member's
      identity - that becomes the ID (TG<user id>) and the name. Otherwise the ID comes from ?id= in the link. */
   var tg = null, tgUser = null, tgName = '', initData = '';
-  try { tg = window.Telegram && window.Telegram.WebApp; tgUser = tg && tg.initDataUnsafe && tg.initDataUnsafe.user; initData = (tg && tg.initData) || ''; if (tg && tg.ready) { tg.ready(); } if (tg && tg.expand) { tg.expand(); } } catch (eT) { tgUser = null; }
-  /* owner, 25 Oct 2026: Telegram Desktop opens Mini Apps in a small window - ask for full screen there
-     (Bot API 8.0+). Phones already open full height, so they are left alone. */
+  /* owner, 26 Oct 2026: read the member's identity straight from the #tgWebAppData Telegram puts in the
+     address, so nothing waits for telegram.org's script (a slow connection left some students on a blank
+     screen). The script is loaded in the background only for ready / expand / full screen. */
   try {
-    var plat = String((tg && tg.platform) || '').toLowerCase();
-    if (tg && tg.requestFullscreen && (!tg.isVersionAtLeast || tg.isVersionAtLeast('8.0')) && /^(macos|tdesktop|weba|webk|web)$/.test(plat)) { tg.requestFullscreen(); }
-  } catch (eF) { }
+    var hp = new URLSearchParams(String(window.location.hash || '').replace(/^#/, ''));
+    initData = hp.get('tgWebAppData') || '';
+    if (initData) { var ud = new URLSearchParams(initData).get('user'); if (ud) { tgUser = JSON.parse(ud); } }
+  } catch (eH) { tgUser = null; }
+  function tgSetup() {
+    try {
+      tg = window.Telegram && window.Telegram.WebApp; if (!tg) { return; }
+      if (!tgUser && tg.initDataUnsafe && tg.initDataUnsafe.user) { tgUser = tg.initDataUnsafe.user; initData = tg.initData || initData; }
+      if (tg.ready) { tg.ready(); } if (tg.expand) { tg.expand(); }
+      /* owner, 25 Oct 2026: Telegram Desktop opens Mini Apps in a small window - ask for full screen there
+         (Bot API 8.0+). Phones already open full height, so they are left alone. */
+      var plat = String(tg.platform || '').toLowerCase();
+      if (tg.requestFullscreen && (!tg.isVersionAtLeast || tg.isVersionAtLeast('8.0')) && /^(macos|tdesktop|weba|webk|web)$/.test(plat)) { tg.requestFullscreen(); }
+    } catch (eT) { }
+  }
+  if (window.Telegram && window.Telegram.WebApp) { tgSetup(); }
+  else if (initData) { var ts = document.createElement('script'); ts.async = true; ts.src = 'https://telegram.org/js/telegram-web-app.js'; ts.onload = tgSetup; document.head.appendChild(ts); }
   var id = '';
   if (tgUser && tgUser.id) {
     id = 'TG' + String(tgUser.id);

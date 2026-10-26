@@ -1,0 +1,30 @@
+[
+ {
+  "id": "cosrh-obesity",
+  "title": "CoSRH 2019 Guideline: Overweight, Obesity and Contraception"
+ },
+ {
+  "id": "cosrh-iuc",
+  "title": "CoSRH 2025 Guideline: Intrauterine Contraception"
+ },
+ {
+  "id": "cosrh-pop",
+  "title": "CoSRH 2026 Guideline: Progestogen-only Pills"
+ },
+ {
+  "id": "rfa-cosrh-iuc",
+  "title": "RFA MRCOG 2: CoSRH 2025 Intrauterine Contraception"
+ },
+ {
+  "id": "rfa-obesity",
+  "title": "RFA MRCOG 2: Obesity and Contraception"
+ },
+ {
+  "id": "rfa-tog-2021-iuc",
+  "title": "RFA MRCOG 2: TOG 2021 Intrauterine Contraception"
+ },
+ {
+  "id": "tog-2021-iuc",
+  "title": "TOG 2021: Intrauterine Contraception"
+ }
+]

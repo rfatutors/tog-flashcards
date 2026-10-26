@@ -4,33 +4,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RFA Tutors Library</title>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
-  body { margin: 0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: #12345a; color: #fff; display: flex; min-height: 100vh; align-items: center; justify-content: center; text-align: center; padding: 0 16px; }
-  p { max-width: 28em; }
+  body { margin: 0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background: #12345a; color: #fff; min-height: 100vh; padding: 24px 16px; box-sizing: border-box; }
+  .wrap { max-width: 34em; margin: 0 auto; text-align: center; }
+  h1 { font-size: 20px; margin: 8px 0 4px; }
+  p { margin: 8px 0 16px; color: #dbe4ee; }
+  ul { list-style: none; padding: 0; margin: 0; text-align: left; }
+  li a { display: block; padding: 12px 14px; margin: 0 0 8px; background: #1f4a78; color: #fff; text-decoration: none; border-radius: 10px; }
+  li a:active, li a:hover { background: #2a5d94; }
 </style>
 </head>
 <body>
-<p id="msg">Opening your document…</p>
+<div class="wrap">
+<h1 id="h">Opening your document…</h1>
+<p id="msg"></p>
+<ul id="list"></ul>
+</div>
 <script>
-/* RFA premium library opener (owner, 25 Oct 2026).
+/* RFA premium library opener (owner, 25-26 Oct 2026).
    One Telegram Mini App for every premium document: t.me/<bot>/library?startapp=<doc>.
-   Telegram hands the doc name to this page as start_param; we go to /premium/<doc>/ and keep
-   the #tgWebAppData hash so the document page still receives the member's signed identity.
-   Outside Telegram, /premium/?doc=<doc>&id=<ID> works the same way. */
+   Telegram clients hand the doc name over in different places, so all of them are read WITHOUT waiting
+   for telegram.org's script (a slow connection left some students on a blank screen, 26 Oct 2026):
+     ?tgWebAppStartParam=<doc>  |  #...&tgWebAppStartParam=<doc>  |  start_param inside #tgWebAppData
+     |  ?doc= / ?startapp= (plain web links) | Telegram.WebApp.initDataUnsafe.start_param (if loaded).
+   We go to /premium/<doc>/ keeping the #tgWebAppData hash, so the document still gets the member's
+   signed identity. If no name arrives at all, the reader gets a list of the documents (library.json). */
 (function () {
-  var tg = window.Telegram && window.Telegram.WebApp, doc = '';
-  try { if (tg) { tg.ready(); tg.expand(); doc = (tg.initDataUnsafe && tg.initDataUnsafe.start_param) || ''; } } catch (e) { }
-  if (!doc) { var m = /[#&]tgWebAppStartParam=([^&]+)/.exec(location.hash); if (m) { doc = decodeURIComponent(m[1]); } }
-  var qs = new URLSearchParams(location.search);
-  if (!doc) { doc = qs.get('doc') || qs.get('startapp') || ''; }
-  doc = String(doc).toLowerCase();
-  if (!/^[a-z0-9][a-z0-9-]{1,40}$/.test(doc)) {
-    document.getElementById('msg').textContent = 'Please open a document from the RFA Tutors link in your Telegram group.';
-    return;
+  var qs = new URLSearchParams(location.search), hash = location.hash.replace(/^#/, ''), hs = new URLSearchParams(hash);
+  function clean(x) { x = String(x || '').trim().toLowerCase(); return /^[a-z0-9][a-z0-9-]{1,40}$/.test(x) ? x : ''; }
+  function fromInitData() {
+    try { var d = new URLSearchParams(hs.get('tgWebAppData') || ''); return d.get('start_param') || ''; } catch (e) { return ''; }
+  }
+  function fromTg() {
+    try { var t = window.Telegram && window.Telegram.WebApp; return (t && t.initDataUnsafe && t.initDataUnsafe.start_param) || ''; } catch (e) { return ''; }
   }
   var id = qs.get('id');
-  location.replace('./' + doc + '/?' + (id ? 'id=' + encodeURIComponent(id) + '&' : '') + 'v=' + Date.now() + location.hash);   /* fresh copy every time (Telegram caches) */
+  function go(doc) {
+    location.replace('./' + doc + '/?' + (id ? 'id=' + encodeURIComponent(id) + '&' : '') + 'v=' + Date.now() + location.hash);
+  }
+  var doc = clean(qs.get('tgWebAppStartParam')) || clean(hs.get('tgWebAppStartParam')) || clean(fromInitData()) ||
+            clean(qs.get('doc')) || clean(qs.get('startapp')) || clean(fromTg());
+  if (doc) { go(doc); return; }
+  /* nothing yet: give telegram.org's script a moment (some clients only expose start_param there), then show the list */
+  var s = document.createElement('script'); s.async = true; s.src = 'https://telegram.org/js/telegram-web-app.js';
+  s.onload = function () { try { window.Telegram.WebApp.ready(); } catch (e) { } var d = clean(fromTg()); if (d) { go(d); } };
+  document.head.appendChild(s);
+  setTimeout(function () {
+    if (clean(fromTg())) { return; }
+    document.getElementById('h').textContent = 'RFA Tutors Library';
+    document.getElementById('msg').textContent = 'Choose your document:';
+    fetch('library.json?v=' + Date.now()).then(function (r) { return r.json(); }).then(function (docs) {
+      var ul = document.getElementById('list');
+      docs.forEach(function (d) {
+        var li = document.createElement('li'), a = document.createElement('a');
+        a.href = './' + d.id + '/?' + (id ? 'id=' + encodeURIComponent(id) + '&' : '') + 'v=' + Date.now() + location.hash;
+        a.textContent = d.title; li.appendChild(a); ul.appendChild(li);
+      });
+      if (!docs.length) { document.getElementById('msg').textContent = 'Please open a document from the RFA Tutors link in your Telegram group.'; }
+    }).catch(function () { document.getElementById('msg').textContent = 'Please open a document from the RFA Tutors link in your Telegram group.'; });
+  }, 1500);
 })();
 </script>
 </body>
