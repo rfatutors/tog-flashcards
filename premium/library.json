@@ -1,5 +1,13 @@
 [
  {
+  "id": "rfa-barrier-methods-sti",
+  "title": "Barrier methods & STI prevention (FSRH 2015)"
+ },
+ {
+  "id": "rfa-contraception-over-40",
+  "title": "Contraception over 40 (CoSRH 2025)"
+ },
+ {
   "id": "cosrh-obesity",
   "title": "CoSRH 2019 Guideline: Overweight, Obesity and Contraception"
  },
@@ -10,6 +18,10 @@
  {
   "id": "cosrh-pop",
   "title": "CoSRH 2026 Guideline: Progestogen-only Pills"
+ },
+ {
+  "id": "rfa-emergency-contraception",
+  "title": "Emergency contraception (CoSRH 2026)"
  },
  {
   "id": "rfa-cosrh-iuc",
