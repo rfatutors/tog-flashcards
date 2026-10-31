@@ -4,6 +4,10 @@
   "title": "Barrier methods & STI prevention (FSRH 2015)"
  },
  {
+  "id": "rfa-tog-2025-cervical-cancer-elimination",
+  "title": "Cervical cancer elimination: summary"
+ },
+ {
   "id": "rfa-cervical-cancer-pregnancy",
   "title": "Cervical cancer in pregnancy: summary"
  },
@@ -26,6 +30,14 @@
  {
   "id": "rfa-emergency-contraception",
   "title": "Emergency contraception (CoSRH 2026)"
+ },
+ {
+  "id": "rfa-tog-2012-endometrial-polyps",
+  "title": "Endometrial polyps: summary"
+ },
+ {
+  "id": "rfa-tog-2023-hpv-independent-cervical",
+  "title": "HPV-independent cervical cancer: summary"
  },
  {
   "id": "rfa-nhs-cervical-screening-2026",
@@ -70,6 +82,10 @@
  {
   "id": "tog-2009-thyroid-disease-pregnancy",
   "title": "TOG 2009: Thyroid Disease in Pregnancy"
+ },
+ {
+  "id": "tog-2012-endometrial-polyps",
+  "title": "TOG 2012: Endometrial polyps"
  },
  {
   "id": "tog-2012-hyperprolactinaemia",
@@ -370,6 +386,10 @@
  {
   "id": "tog-2023-competence-confidentiality",
   "title": "TOG 2023: Competence and Confidentiality in Paediatric and Adolescent Gynaecology"
+ },
+ {
+  "id": "tog-2023-hpv-independent-cervical-cancer",
+  "title": "TOG 2023: HPV-independent cervical cancer"
  },
  {
   "id": "tog-2023-information-sharing",
