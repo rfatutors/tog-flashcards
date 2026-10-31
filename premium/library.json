@@ -4,6 +4,10 @@
   "title": "Barrier methods & STI prevention (FSRH 2015)"
  },
  {
+  "id": "rfa-cervical-cancer-pregnancy",
+  "title": "Cervical cancer in pregnancy: summary"
+ },
+ {
   "id": "rfa-contraception-over-40",
   "title": "Contraception over 40 (CoSRH 2025)"
  },
@@ -30,6 +34,10 @@
  {
   "id": "nhs-cervical-screening-2026",
   "title": "NHS Cervical Screening Programme 2026"
+ },
+ {
+  "id": "rfa-pregnancy-after-trachelectomy",
+  "title": "Pregnancy after trachelectomy: summary"
  },
  {
   "id": "rfa-cosrh-iuc",
@@ -174,6 +182,10 @@
  {
   "id": "tog-2017-management-diabetic-ketoacidosis",
   "title": "TOG 2017: Management of Diabetic Ketoacidosis in Pregnancy"
+ },
+ {
+  "id": "tog-2017-pregnancy-after-trachelectomy",
+  "title": "TOG 2017: Pregnancy after trachelectomy"
  },
  {
   "id": "tog-2018-complications-art",
@@ -322,6 +334,14 @@
  {
   "id": "tog-2021-very-advanced-maternal-age",
   "title": "TOG 2021: Very Advanced Maternal Age"
+ },
+ {
+  "id": "tog-2022-cervical-cancer-pregnancy-letter",
+  "title": "TOG 2022 letter: Re Cervical cancer in pregnancy"
+ },
+ {
+  "id": "tog-2022-cervical-cancer-pregnancy",
+  "title": "TOG 2022: Cervical cancer in pregnancy"
  },
  {
   "id": "tog-2022-haemoglobinopathies-pregnancy",
