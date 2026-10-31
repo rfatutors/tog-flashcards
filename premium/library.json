@@ -28,16 +28,32 @@
   "title": "CoSRH 2026 Guideline: Progestogen-only Pills"
  },
  {
+  "id": "rfa-tog-2021-detecting-endometrial-cancer",
+  "title": "Detecting endometrial cancer: summary"
+ },
+ {
   "id": "rfa-emergency-contraception",
   "title": "Emergency contraception (CoSRH 2026)"
+ },
+ {
+  "id": "rfa-gtg-67-endometrial-hyperplasia",
+  "title": "Endometrial hyperplasia: summary"
  },
  {
   "id": "rfa-tog-2012-endometrial-polyps",
   "title": "Endometrial polyps: summary"
  },
  {
+  "id": "gtg-67-endometrial-hyperplasia",
+  "title": "GTG 67: Management of endometrial hyperplasia"
+ },
+ {
   "id": "rfa-tog-2023-hpv-independent-cervical",
   "title": "HPV-independent cervical cancer: summary"
+ },
+ {
+  "id": "rfa-tog-2021-lynch-syndrome",
+  "title": "Lynch syndrome: summary"
  },
  {
   "id": "rfa-nhs-cervical-screening-2026",
