@@ -26,10 +26,19 @@
       tg = window.Telegram && window.Telegram.WebApp; if (!tg) { return; }
       if (!tgUser && tg.initDataUnsafe && tg.initDataUnsafe.user) { tgUser = tg.initDataUnsafe.user; initData = tg.initData || initData; }
       if (tg.ready) { tg.ready(); } if (tg.expand) { tg.expand(); }
-      /* owner, 25 Oct 2026: Telegram Desktop opens Mini Apps in a small window - ask for full screen there
-         (Bot API 8.0+). Phones already open full height, so they are left alone. */
-      var plat = String(tg.platform || '').toLowerCase();
-      if (tg.requestFullscreen && (!tg.isVersionAtLeast || tg.isVersionAtLeast('8.0')) && /^(macos|tdesktop|weba|webk|web)$/.test(plat)) { tg.requestFullscreen(); }
+      /* owner, 31 Oct 2026: full screen on every device, phones included (Bot API 8.0+; older Telegram apps
+         just stay expanded). Telegram's close / menu buttons float over the top of the page in full screen,
+         so the toolbar is pushed below them; the resize makes the reader re-measure the toolbar. */
+      if (tg.requestFullscreen && (!tg.isVersionAtLeast || tg.isVersionAtLeast('8.0'))) {
+        var fitBar = function () {
+          var i = tg.safeAreaInset || {}, c = tg.contentSafeAreaInset || {}, bar = document.getElementById('bar');
+          if (bar) { bar.style.paddingTop = tg.isFullscreen ? ((i.top || 0) + (c.top || 0)) + 'px' : ''; }
+          window.dispatchEvent(new Event('resize'));
+        };
+        if (tg.onEvent) { tg.onEvent('fullscreenChanged', fitBar); tg.onEvent('safeAreaChanged', fitBar); tg.onEvent('contentSafeAreaChanged', fitBar); }
+        if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', fitBar); } else { fitBar(); }
+        tg.requestFullscreen();
+      }
     } catch (eT) { }
   }
   if (window.Telegram && window.Telegram.WebApp) { tgSetup(); }
