@@ -96,6 +96,10 @@
   "title": "RFA MRCOG 2: Obesity and Contraception"
  },
  {
+  "id": "rfa-tog-2014-risk-reducing-surgery",
+  "title": "RFA MRCOG 2: TOG 2014 Risk-reducing Surgery for High Risk of Ovarian Cancer"
+ },
+ {
   "id": "rfa-tog-2015-postmenopausal-endometrial",
   "title": "RFA MRCOG 2: TOG 2015 Postmenopausal Endometrial Pathology"
  },
@@ -106,6 +110,14 @@
  {
   "id": "rfa-tog-2021-iuc",
   "title": "RFA MRCOG 2: TOG 2021 Intrauterine Contraception"
+ },
+ {
+  "id": "rfa-tog-2021-nonepithelial-ovarian",
+  "title": "RFA MRCOG 2: TOG 2021 Nonepithelial Ovarian Cancers"
+ },
+ {
+  "id": "rfa-tog-2025-borderline-ovarian-tumours",
+  "title": "RFA MRCOG 2: TOG 2025 Borderline Ovarian Tumours"
  },
  {
   "id": "tog-2009-adenomyosis",
