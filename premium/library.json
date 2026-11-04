@@ -52,6 +52,14 @@
   "title": "FIGO 2023: Staging of Endometrial Cancer"
  },
  {
+  "id": "gtg-34-postmenopausal-ovarian-cysts",
+  "title": "GTG 34: The Management of Ovarian Cysts in Postmenopausal Women"
+ },
+ {
+  "id": "gtg-62-premenopausal-ovarian-masses",
+  "title": "GTG 62: Management of Suspected Ovarian Masses in Premenopausal Women"
+ },
+ {
   "id": "gtg-67-endometrial-hyperplasia",
   "title": "GTG 67: Management of endometrial hyperplasia"
  },
@@ -94,6 +102,14 @@
  {
   "id": "rfa-figo-2023-endometrial-cancer-staging",
   "title": "RFA MRCOG 2: FIGO 2023 Endometrial Cancer Staging"
+ },
+ {
+  "id": "rfa-gtg-34-postmenopausal-ovarian-cysts",
+  "title": "RFA MRCOG 2: GTG 34 Postmenopausal Ovarian Cysts"
+ },
+ {
+  "id": "rfa-gtg-62-premenopausal-ovarian-masses",
+  "title": "RFA MRCOG 2: GTG 62 Premenopausal Ovarian Masses"
  },
  {
   "id": "rfa-obesity",
