@@ -4,6 +4,10 @@
   "title": "Barrier methods & STI prevention (FSRH 2015)"
  },
  {
+  "id": "bgcs-2024-ovarian-tubal-peritoneal-cancer",
+  "title": "BGCS 2024: Ovarian, Tubal and Primary Peritoneal Cancer Guidelines"
+ },
+ {
   "id": "rfa-tog-2025-cervical-cancer-elimination",
   "title": "Cervical cancer elimination: summary"
  },
@@ -146,6 +150,18 @@
  {
   "id": "rfa-tog-2025-borderline-ovarian-tumours",
   "title": "RFA MRCOG 2: TOG 2025 Borderline Ovarian Tumours"
+ },
+ {
+  "id": "rfa-bgcs-2024-ovarian-tubal-peritoneal",
+  "title": "RFA Summary - BGCS 2024: Ovarian, Tubal and Primary Peritoneal Cancer"
+ },
+ {
+  "id": "rfa-tog-2020-ovarian-cysts-children",
+  "title": "RFA Summary - TOG 2020: Ovarian Cysts in Children and Adolescents"
+ },
+ {
+  "id": "rfa-tog-2024-hipec-ovarian-cancer",
+  "title": "RFA Summary - TOG 2024: HIPEC in the Management of Ovarian Cancer"
  },
  {
   "id": "tog-2009-adenomyosis",
@@ -514,6 +530,10 @@
  {
   "id": "tog-2024-heavy-menstrual-bleeding",
   "title": "TOG 2024: Heavy Menstrual Bleeding in Adolescents: How to Investigate and How to Manage"
+ },
+ {
+  "id": "tog-2024-hipec-ovarian-cancer",
+  "title": "TOG 2024: Hyperthermic Intraperitoneal Chemotherapy (HIPEC) in the Management of Ovarian Cancer"
  },
  {
   "id": "tog-2024-premature-ovarian-insufficiency",
