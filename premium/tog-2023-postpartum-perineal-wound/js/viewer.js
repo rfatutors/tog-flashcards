@@ -84,8 +84,10 @@ var lowPower = (navigator.deviceMemory && navigator.deviceMemory <= 2) ||
 
 /* Render quality adapts itself to the device and connection. */
 function lite() { return slowLink || lowPower || isPhone; }
-function dprCap() { return lite() ? 1 : 2; }
-function pixelCap() { return lite() ? 2600000 : (isPhone ? 4200000 : 12000000); }
+/* owner, 5 Nov 2026: pages must be sharp from the first open. Phones were drawn at 1x on 2-3x screens
+   (blurry text); now every device draws at its real pixel density, only weak devices / slow links less. */
+function dprCap() { return (slowLink || lowPower) ? 1.5 : 3; }
+function pixelCap() { return lowPower ? 3500000 : (isPhone ? 6500000 : 12000000); }
 function liveLimit() { return lite() ? 3 : 7; }
 
 /* ----------------------------------------------------------- app state */
@@ -408,7 +410,9 @@ function renderPage(i) {
     return p.task.promise.then(function () {
       p.task = null;
       p.rendered = true;
-      p.stale = false;
+      /* the page may have been resized while drawing (Telegram going full screen on first open):
+         a canvas drawn for the old size would be stretched and soft, so draw it again */
+      p.stale = Math.abs(scaleFor(p.base) - css) > 0.001;
       if (p.ph) { p.ph.hidden = true; }
       renderOrder.push(i);
       evict();
@@ -416,7 +420,7 @@ function renderPage(i) {
   })['catch'](function (e) {
     if (e && e.name === 'RenderingCancelledException') { return; }
     if (window.console) { console.error('page ' + (i + 1) + ' failed', e); }
-  }).then(function () { p.rendering = false; });
+  }).then(function () { p.rendering = false; if (p.stale && p.rendered) { renderPage(i); } });
 }
 
 function renderVisible() {
