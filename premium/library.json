@@ -4,6 +4,10 @@
   "title": "Barrier methods & STI prevention (FSRH 2015)"
  },
  {
+  "id": "bashh-2024-vulval-conditions",
+  "title": "BASHH 2024: UK National Guideline on the Management of Vulval Conditions"
+ },
+ {
   "id": "bgcs-2024-ovarian-tubal-peritoneal-cancer",
   "title": "BGCS 2024: Ovarian, Tubal and Primary Peritoneal Cancer Guidelines"
  },
@@ -46,6 +50,10 @@
  {
   "id": "rfa-tog-2012-endometrial-polyps",
   "title": "Endometrial polyps: summary"
+ },
+ {
+  "id": "figo-2021-vulval-carcinoma-staging",
+  "title": "FIGO 2021: Staging for Carcinoma of the Vulva (2021 Revision)"
  },
  {
   "id": "figo-2023-endometrial-staging-correction",
@@ -152,8 +160,16 @@
   "title": "RFA MRCOG 2: TOG 2025 Borderline Ovarian Tumours"
  },
  {
+  "id": "rfa-bashh-2024-vulval-conditions",
+  "title": "RFA Summary - BASHH 2024: Management of Vulval Conditions"
+ },
+ {
   "id": "rfa-bgcs-2024-ovarian-tubal-peritoneal",
   "title": "RFA Summary - BGCS 2024: Ovarian, Tubal and Primary Peritoneal Cancer"
+ },
+ {
+  "id": "rfa-figo-2021-vulval-carcinoma-staging",
+  "title": "RFA Summary - FIGO 2021: Staging for Carcinoma of the Vulva"
  },
  {
   "id": "rfa-tog-2020-ovarian-cysts-children",
