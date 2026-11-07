@@ -176,6 +176,14 @@
   "title": "RFA Summary - TOG 2020: Ovarian Cysts in Children and Adolescents"
  },
  {
+  "id": "rfa-tog-2023-sentinel-lymph-node-mapping",
+  "title": "RFA Summary - TOG 2023: Sentinel Lymph Node Mapping in Gynaecological Malignancy"
+ },
+ {
+  "id": "rfa-tog-2024-vulval-intraepithelial",
+  "title": "RFA Summary - TOG 2024: Diagnosis and Management of Vulval Intraepithelial Neoplasia"
+ },
+ {
   "id": "rfa-tog-2024-hipec-ovarian-cancer",
   "title": "RFA Summary - TOG 2024: HIPEC in the Management of Ovarian Cancer"
  },
@@ -526,6 +534,10 @@
  {
   "id": "tog-2023-premenstrual-disorders-syndrome",
   "title": "TOG 2023: Premenstrual Disorders Including Syndrome and Dysphoric Disorder"
+ },
+ {
+  "id": "tog-2023-sentinel-lymph-node-mapping",
+  "title": "TOG 2023: Sentinel Lymph Node Mapping in the Modern Management of Gynaecological Malignancy"
  },
  {
   "id": "tog-2023-thromboprophylaxis-gynaecology",
