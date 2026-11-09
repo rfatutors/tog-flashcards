@@ -132,8 +132,20 @@
   "title": "NHS Cervical Screening Programme 2026"
  },
  {
+  "id": "nice-ng12-2026-suspected-cancer-referral",
+  "title": "NICE NG12 2026: Suspected Cancer - Recognition and Referral"
+ },
+ {
   "id": "rfa-pregnancy-after-trachelectomy",
   "title": "Pregnancy after trachelectomy: summary"
+ },
+ {
+  "id": "rfa-tog-2023-premenstrual-disorders",
+  "title": "Premenstrual disorders, PMS and PMDD (TOG 2023): summary & clinical boxes"
+ },
+ {
+  "id": "rfa-tog-2021-raised-ca-125",
+  "title": "Raised CA125 (TOG 2021): summary & causes chart"
  },
  {
   "id": "rfa-cosrh-iuc",
@@ -206,6 +218,10 @@
  {
   "id": "rfa-tog-2024-hipec-ovarian-cancer",
   "title": "RFA Summary - TOG 2024: HIPEC in the Management of Ovarian Cancer"
+ },
+ {
+  "id": "rfa-nice-ng12-2026-suspected-cancer",
+  "title": "Suspected cancer referral (NICE NG12 2026): summary & CA125 table"
  },
  {
   "id": "tog-2009-adenomyosis",
