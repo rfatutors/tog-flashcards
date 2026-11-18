@@ -20,6 +20,10 @@
   "title": "Cervical cancer in pregnancy: summary"
  },
  {
+  "id": "cervicalcheck-35-hpv-primary-screening",
+  "title": "CervicalCheck 35 (2022): HPV Primary Screening Algorithm"
+ },
+ {
   "id": "rfa-contraception-over-40",
   "title": "Contraception over 40 (CoSRH 2025)"
  },
@@ -80,8 +84,196 @@
   "title": "HPV-independent cervical cancer: summary"
  },
  {
+  "id": "hse-2017-antimicrobial-safety-pregnancy",
+  "title": "HSE (2017): Antimicrobial safety In Pregnancy and Lactation"
+ },
+ {
+  "id": "hse-48-guideline-management-shoulder",
+  "title": "HSE 48 (2018): Guideline for the Management of Shoulder Dystocia"
+ },
+ {
+  "id": "imews-2020-irish-maternity-early-warning",
+  "title": "IMEWS (2020): Irish Maternity Early Warning System"
+ },
+ {
+  "id": "iog-01-care-management-unstable-lie",
+  "title": "IOG 01 (2026): Care and Management of Unstable Lie in Pregnancy"
+ },
+ {
+  "id": "iog-02-care-women-using-birthing-pool",
+  "title": "IOG 02 (2026): Care of Women Using a Birthing Pool for Labour and/or Birth"
+ },
+ {
+  "id": "iog-03-postnatal-midwifery-care-mother",
+  "title": "IOG 03 (2026): Postnatal Midwifery Care for Mother and Infant"
+ },
+ {
+  "id": "iog-04-prevention-early-onset-group-b",
+  "title": "IOG 04 (2026): Prevention of Early-Onset Group B Streptococcal Disease in Term Infants"
+ },
+ {
+  "id": "iog-05-umbilical-cord-prolapse-prevention",
+  "title": "IOG 05 (2026): Umbilical Cord Prolapse - Prevention, Diagnosis and Management"
+ },
+ {
+  "id": "iog-06-assessment-management",
+  "title": "IOG 06 (2025): Assessment and Management of Endometriosis"
+ },
+ {
+  "id": "iog-07-assessment-management-stress",
+  "title": "IOG 07 (2025): Assessment and Management of Stress Urinary Incontinence in Women"
+ },
+ {
+  "id": "iog-08-assisted-vaginal-birth",
+  "title": "IOG 08 (2025): Assisted Vaginal Birth"
+ },
+ {
+  "id": "iog-09-clinical-update-adult-vulval",
+  "title": "IOG 09 (2025): Clinical Update - Adult Vulval Lichen Sclerosus"
+ },
+ {
+  "id": "iog-10-clinical-update-monkeypox-virus",
+  "title": "IOG 10 (2025): Clinical Update - Monkeypox virus or Mpox (MPXV) in Pregnancy - Guidance for Maternity Services"
+ },
+ {
+  "id": "iog-11-diagnosis-management-mesh",
+  "title": "IOG 11 (2025): Diagnosis and Management of Mesh Complications"
+ },
+ {
+  "id": "iog-12-fetal-growth-restriction",
+  "title": "IOG 12 (2025): Fetal Growth Restriction - Recognition, Diagnosis and Management"
+ },
+ {
+  "id": "iog-13-fetal-heart-rate-monitoring",
+  "title": "IOG 13 (2025): Fetal Heart Rate Monitoring"
+ },
+ {
   "id": "iog-14-first-trimester-miscarriage",
   "title": "IOG 14 2025 First Trimester Miscarriage"
+ },
+ {
+  "id": "iog-15-vitro-fertilisation-ivf",
+  "title": "IOG 15 (2025): In Vitro Fertilisation (IVF) and Intracytoplasmic Sperm Injection (ICSI)"
+ },
+ {
+  "id": "iog-16-intrapartum-care-women-supported",
+  "title": "IOG 16 (2025): Intrapartum Care for Women on the Supported Care Pathway"
+ },
+ {
+  "id": "iog-17-investigation-management",
+  "title": "IOG 17 (2025): Investigation and Management of Complications of Early Termination of Pregnancy"
+ },
+ {
+  "id": "iog-18-prevention-management-primary",
+  "title": "IOG 18 (2025): Prevention and Management of Primary Postpartum Haemorrhage"
+ },
+ {
+  "id": "iog-19-recurrent-miscarriage",
+  "title": "IOG 19 (2025): Recurrent Miscarriage"
+ },
+ {
+  "id": "iog-20-diagnosis-management-ectopic",
+  "title": "IOG 20 (2025): The Diagnosis and Management of Ectopic Pregnancy"
+ },
+ {
+  "id": "iog-21-antenatal-corticosteroids-reduce",
+  "title": "IOG 21 (2024): Antenatal Corticosteroids to Reduce Neonatal Morbidity and Mortality"
+ },
+ {
+  "id": "iog-22-clinical-practice-statement",
+  "title": "IOG 22 (2024): Clinical Practice Statement - Parvovirus-B19 in Pregnancy"
+ },
+ {
+  "id": "iog-23-reduced-fetal-movements",
+  "title": "IOG 23 (2024): Reduced Fetal Movements"
+ },
+ {
+  "id": "iog-24-screening-management-domestic",
+  "title": "IOG 24 (2024): Screening and Management of Domestic Violence in Pregnancy and the Early Postnatal Period"
+ },
+ {
+  "id": "iog-25-fertility-investigation-management",
+  "title": "IOG 25 (2023): Fertility - Investigation and Management in Secondary Care"
+ },
+ {
+  "id": "iog-26-induction-labour",
+  "title": "IOG 26 (2023): Induction of Labour"
+ },
+ {
+  "id": "iog-27-management-rheumatic-diseases",
+  "title": "IOG 27 (2023): Management of Rheumatic Diseases in the Preconception, Antenatal and Postnatal Periods"
+ },
+ {
+  "id": "iog-28-stillbirth-prevention",
+  "title": "IOG 28 (2023): Stillbirth - Prevention, Investigation, Management and Care"
+ },
+ {
+  "id": "iog-29-fetal-anatomy-ultrasound",
+  "title": "IOG 29 (2023): The Fetal Anatomy Ultrasound"
+ },
+ {
+  "id": "iog-30-vaginal-birth-after-caesarean",
+  "title": "IOG 30 (2023): Vaginal Birth After Caesarean Section"
+ },
+ {
+  "id": "iog-31-varicella-pregnancy",
+  "title": "IOG 31 (2023): Varicella in Pregnancy"
+ },
+ {
+  "id": "iog-32-assessment-management",
+  "title": "IOG 32 (2022): Assessment and Management of Postmenopausal Bleeding (PMB)"
+ },
+ {
+  "id": "iog-33-diagnosis-management-pelvic-organ",
+  "title": "IOG 33 (2022): Diagnosis and Management of Pelvic Organ Prolapse"
+ },
+ {
+  "id": "iog-34-diagnosis-management-placenta",
+  "title": "IOG 34 (2022): Diagnosis and Management of Placenta Accreta Spectrum (PAS)"
+ },
+ {
+  "id": "iog-36-rapid-risk-assessment-tool-vte",
+  "title": "IOG 36 (2022): Rapid Risk Assessment Tool for VTE Thromboprophylaxis in Pregnancy"
+ },
+ {
+  "id": "iog-37-stillbirth-surveillance-fetal",
+  "title": "IOG 37 (2022): Stillbirth, Surveillance of Fetal Wellbeing and SARS-CoV-2 Infection"
+ },
+ {
+  "id": "iog-39-interim-clinical-guidance",
+  "title": "IOG 39 (2018): Interim Clinical Guidance - Termination of Pregnancy Under 12 Weeks"
+ },
+ {
+  "id": "iog-40-risk-life-health-pregnant-woman",
+  "title": "IOG 40 (2019): Risk to Life or Health of a Pregnant Woman in Relation to Termination of Pregnancy"
+ },
+ {
+  "id": "iog-41-pathway-management-fatal-fetal",
+  "title": "IOG 41 (2020): Pathway for Management of Fatal Fetal Anomalies and/or Life Limiting Conditions Diagnosed During Pregnancy"
+ },
+ {
+  "id": "iog-42-nutrition-during-pregnancy",
+  "title": "IOG 42 (2019): Nutrition During Pregnancy"
+ },
+ {
+  "id": "iog-43-bereavement-care-following",
+  "title": "IOG 43 (2017): Bereavement Care Following Maternal Death Within a Hospital Setting"
+ },
+ {
+  "id": "iog-44-management-female-genital",
+  "title": "IOG 44 (2019): Management of Female Genital Mutilation (FGM)"
+ },
+ {
+  "id": "iog-45-perinatal-management-extreme",
+  "title": "IOG 45 (2021): Perinatal Management of Extreme Preterm Birth at the Threshold of Viability"
+ },
+ {
+  "id": "iog-46-obesity-pregnancy",
+  "title": "IOG 46 (2011): Obesity and Pregnancy"
+ },
+ {
+  "id": "iog-47-bacterial-infections-specific",
+  "title": "IOG 47 (2015): Bacterial Infections Specific to Pregnancy"
  },
  {
   "id": "rfa-tog-2021-lynch-syndrome",
@@ -188,6 +380,22 @@
   "title": "National Clinical Practice Guideline: The Diagnosis and Management of Ectopic Pregnancy"
  },
  {
+  "id": "ncg-2022-diagnosis-staging-treatment",
+  "title": "NCG (2022, re-endorsed 2026): Diagnosis, Staging and Treatment of Patients with Gestational Trophoblastic Disease"
+ },
+ {
+  "id": "ncg-2026-hyperemesis-gravidarum-nausea",
+  "title": "NCG (2026): Hyperemesis Gravidarum and Nausea-Vomiting in Pregnancy"
+ },
+ {
+  "id": "ncpg-2026-varicella-pregnancy",
+  "title": "NCPG (2026): Varicella in pregnancy"
+ },
+ {
+  "id": "ncpg-27-nutrition-during-pregnancy",
+  "title": "NCPG 27 (2022): Nutrition During Pregnancy"
+ },
+ {
   "id": "rfa-nhs-cervical-screening-2026",
   "title": "NHS Cervical Screening 2026: summary & charts"
  },
@@ -196,8 +404,132 @@
   "title": "NHS Cervical Screening Programme 2026"
  },
  {
+  "id": "nhscsp-38-cervical-screening-programme",
+  "title": "NHSCSP 38 (2020): Cervical Screening Programme and Colposcopy Management"
+ },
+ {
+  "id": "nice-cg110-pregnancy-complex-social",
+  "title": "NICE CG110: Pregnancy and complex social factors a model for service provision for pregnant women with complex social factors"
+ },
+ {
+  "id": "nice-cg122-ovarian-cancer-recognition",
+  "title": "NICE CG122: Ovarian cancer recognition and initial management"
+ },
+ {
+  "id": "nice-cg192-antenatal-postnatal-mental",
+  "title": "NICE CG192: Antenatal and postnatal mental health clinical management and service guidance"
+ },
+ {
+  "id": "nice-cg30-long-acting-reversible",
+  "title": "NICE CG30: Long-acting reversible contraception"
+ },
+ {
   "id": "nice-ng12-2026-suspected-cancer-referral",
   "title": "NICE NG12 2026: Suspected Cancer - Recognition and Referral"
+ },
+ {
+  "id": "nice-ng121-intrapartum-care-women",
+  "title": "NICE NG121: Intrapartum care for women with existing medical conditions or obstetric complications and their babies"
+ },
+ {
+  "id": "nice-ng123-urinary-incontinence-pelvic",
+  "title": "NICE NG123: Urinary incontinence and pelvic organ prolapse in women management"
+ },
+ {
+  "id": "nice-ng125-surgical-site-infections",
+  "title": "NICE NG125 2020: Surgical site infections prevention and treatment"
+ },
+ {
+  "id": "nice-ng126-ectopic-pregnancy-miscarriage",
+  "title": "NICE NG126: Ectopic pregnancy and miscarriage diagnosis and initial management"
+ },
+ {
+  "id": "nice-ng133-hypertension-pregnancy",
+  "title": "NICE NG133: Hypertension in pregnancy diagnosis and management"
+ },
+ {
+  "id": "nice-ng137-twin-triplet-pregnancy",
+  "title": "NICE NG137: Twin and triplet pregnancy"
+ },
+ {
+  "id": "nice-ng140-abortion-care",
+  "title": "NICE NG140: Abortion care"
+ },
+ {
+  "id": "nice-ng192-caesarean-birth",
+  "title": "NICE NG192: Caesarean birth"
+ },
+ {
+  "id": "nice-ng194-postnatal-care",
+  "title": "NICE NG194: Postnatal care"
+ },
+ {
+  "id": "nice-ng195-neonatal-infection-antibiotics",
+  "title": "NICE NG195: Neonatal infection antibiotics for prevention and treatment"
+ },
+ {
+  "id": "nice-ng201-antenatal-care",
+  "title": "NICE NG201: Antenatal care"
+ },
+ {
+  "id": "nice-ng207-inducing-labour",
+  "title": "NICE NG207: Inducing labour"
+ },
+ {
+  "id": "nice-ng210-pelvic-floor-dysfunction",
+  "title": "NICE NG210: Pelvic floor dysfunction prevention and non-surgical management"
+ },
+ {
+  "id": "nice-ng229-fetal-monitoring-labour",
+  "title": "NICE NG229: Fetal monitoring in labour"
+ },
+ {
+  "id": "nice-ng235-intrapartum-care",
+  "title": "NICE NG235 2026: Intrapartum care"
+ },
+ {
+  "id": "nice-ng23-menopause-identification",
+  "title": "NICE NG23: Menopause identification and management"
+ },
+ {
+  "id": "nice-ng241-ovarian-cancer-identifying",
+  "title": "NICE NG241: Ovarian cancer identifying and managing familial and genetic risk"
+ },
+ {
+  "id": "nice-ng247-maternal-child-nutrition",
+  "title": "NICE NG247: Maternal and child nutrition nutrition and weight management in pregnancy, and nutrition in children up to 5 years"
+ },
+ {
+  "id": "nice-ng255-suspected-sepsis-pregnant",
+  "title": "NICE NG255: Suspected sepsis in pregnant or recently pregnant people recognition, diagnosis and early management"
+ },
+ {
+  "id": "nice-ng257-fertility-problems-assessment",
+  "title": "NICE NG257: Fertility problems assessment and treatment"
+ },
+ {
+  "id": "nice-ng25-preterm-labour-birth",
+  "title": "NICE NG25: Preterm labour and birth"
+ },
+ {
+  "id": "nice-ng4-safe-midwifery-staffing",
+  "title": "NICE NG4: Safe midwifery staffing for maternity settings"
+ },
+ {
+  "id": "nice-ng73-endometriosis-diagnosis",
+  "title": "NICE NG73: Endometriosis diagnosis and management"
+ },
+ {
+  "id": "nice-ng88-heavy-menstrual-bleeding",
+  "title": "NICE NG88: Heavy menstrual bleeding assessment and management"
+ },
+ {
+  "id": "nice-ph51-contraceptive-services-under",
+  "title": "NICE PH51: Contraceptive services for under 25s"
+ },
+ {
+  "id": "nice-qs109-diabetes-pregnancy",
+  "title": "NICE QS109 2023: Diabetes in Pregnancy"
  },
  {
   "id": "rfa-pregnancy-after-trachelectomy",
@@ -212,8 +544,176 @@
   "title": "Raised CA125 (TOG 2021): summary & causes chart"
  },
  {
+  "id": "gtg-12-pregnancy-breast-cancer",
+  "title": "RCOG Green-top Guideline No. 12 (2025): Pregnancy and Breast Cancer"
+ },
+ {
   "id": "gtg-13-chickenpox-in-pregnancy",
   "title": "RCOG Green-top Guideline No. 13 (2024): Chickenpox in Pregnancy"
+ },
+ {
+  "id": "gtg-17-recurrent-miscarriage",
+  "title": "RCOG Green-top Guideline No. 17 (2023): Recurrent Miscarriage"
+ },
+ {
+  "id": "gtg-20a-ecv-term-breech",
+  "title": "RCOG Green-top Guideline No. 20a (2017): External Cephalic Version and Reducing the Incidence of Term Breech Presentation"
+ },
+ {
+  "id": "gtg-20b-breech-presentation",
+  "title": "RCOG Green-top Guideline No. 20b (2017): Management of Breech Presentation"
+ },
+ {
+  "id": "gtg-21-ectopic-pregnancy",
+  "title": "RCOG Green-top Guideline No. 21 (2016): Diagnosis and Management of Ectopic Pregnancy"
+ },
+ {
+  "id": "gtg-27a-placenta-praevia-accreta",
+  "title": "RCOG Green-top Guideline No. 27a (2026): Placenta Praevia and Placenta Accreta Spectrum - Diagnosis and Management"
+ },
+ {
+  "id": "gtg-27b-vasa-praevia",
+  "title": "RCOG Green-top Guideline No. 27b (2018): Vasa Praevia - Diagnosis and Management"
+ },
+ {
+  "id": "gtg-29-third-fourth-degree-tears",
+  "title": "RCOG Green-top Guideline No. 29 (2015): The Management of Third- and Fourth-degree Perineal Tears"
+ },
+ {
+  "id": "gtg-31-sga-fgr",
+  "title": "RCOG Green-top Guideline No. 31 (2024): Investigation and Care of a Small-for-Gestational-Age Fetus and a Growth Restricted Fetus"
+ },
+ {
+  "id": "gtg-36-early-onset-gbs",
+  "title": "RCOG Green-top Guideline No. 36 (2017): Prevention of Early-onset Neonatal Group B Streptococcal Disease"
+ },
+ {
+  "id": "gtg-37a-vte-prevention-pregnancy",
+  "title": "RCOG Green-top Guideline No. 37a (2015): Reducing the Risk of Thrombosis and Embolism during Pregnancy and the Puerperium"
+ },
+ {
+  "id": "gtg-37b-vte-acute-management",
+  "title": "RCOG Green-top Guideline No. 37b (2015): Thrombosis and Embolism during Pregnancy and the Puerperium - Acute Management"
+ },
+ {
+  "id": "gtg-38-gestational-trophoblastic",
+  "title": "RCOG Green-top Guideline No. 38 (2020): Management of Gestational Trophoblastic Disease"
+ },
+ {
+  "id": "gtg-41-chronic-pelvic-pain",
+  "title": "RCOG Green-top Guideline No. 41 (2012): The Initial Management of Chronic Pelvic Pain"
+ },
+ {
+  "id": "gtg-42-shoulder-dystocia",
+  "title": "RCOG Green-top Guideline No. 42 (2026): Shoulder Dystocia"
+ },
+ {
+  "id": "gtg-43-obstetric-cholestasis",
+  "title": "RCOG Green-top Guideline No. 43 (2022): Intrahepatic Cholestasis of Pregnancy"
+ },
+ {
+  "id": "gtg-45-birth-after-caesarean",
+  "title": "RCOG Green-top Guideline No. 45 (2015): Birth after Previous Caesarean Birth"
+ },
+ {
+  "id": "gtg-46-vault-prolapse",
+  "title": "RCOG Green-top Guideline No. 46 (2015): Post-Hysterectomy Vaginal Vault Prolapse"
+ },
+ {
+  "id": "gtg-47-blood-transfusion-obstetrics",
+  "title": "RCOG Green-top Guideline No. 47 (2015): Blood Transfusions in Obstetrics"
+ },
+ {
+  "id": "gtg-48-premenstrual-syndrome",
+  "title": "RCOG Green-top Guideline No. 48 (2017): Management of Premenstrual Syndrome"
+ },
+ {
+  "id": "gtg-49-laparoscopic-entry-injuries",
+  "title": "RCOG Green-top Guideline No. 49 (2008): Preventing Entry-related Gynaecological Laparoscopic Injuries"
+ },
+ {
+  "id": "gtg-5-ohss",
+  "title": "RCOG Green-top Guideline No. 5 (2026): The Management of Ovarian Hyperstimulation Syndrome"
+ },
+ {
+  "id": "gtg-50-umbilical-cord-prolapse",
+  "title": "RCOG Green-top Guideline No. 50 (2014): Umbilical Cord Prolapse"
+ },
+ {
+  "id": "gtg-51-monochorionic-twins",
+  "title": "RCOG Green-top Guideline No. 51 (2025): Management of Monochorionic Twin Pregnancy"
+ },
+ {
+  "id": "gtg-52-postpartum-haemorrhage",
+  "title": "RCOG Green-top Guideline No. 52 (2016): Prevention and Management of Postpartum Haemorrhage"
+ },
+ {
+  "id": "gtg-53-female-genital-mutilation",
+  "title": "RCOG Green-top Guideline No. 53 (2015): Female Genital Mutilation and its Management"
+ },
+ {
+  "id": "gtg-54b-malaria-in-pregnancy",
+  "title": "RCOG Green-top Guideline No. 54b (2010): The Diagnosis and Treatment of Malaria in Pregnancy"
+ },
+ {
+  "id": "gtg-55-stillbirth",
+  "title": "RCOG Green-top Guideline No. 55 (2024): Care of Late Intrauterine Fetal Death and Stillbirth"
+ },
+ {
+  "id": "gtg-56-maternal-collapse",
+  "title": "RCOG Green-top Guideline No. 56 (2019): Maternal Collapse in Pregnancy and the Puerperium"
+ },
+ {
+  "id": "gtg-57-reduced-fetal-movements",
+  "title": "RCOG Green-top Guideline No. 57 (2026): Reduced Fetal Movements"
+ },
+ {
+  "id": "gtg-63-antepartum-haemorrhage",
+  "title": "RCOG Green-top Guideline No. 63 (2011): Antepartum Haemorrhage"
+ },
+ {
+  "id": "gtg-64-maternal-sepsis",
+  "title": "RCOG Green-top Guideline No. 64 (2025): Identification and Management of Maternal Sepsis"
+ },
+ {
+  "id": "gtg-68-epilepsy-in-pregnancy",
+  "title": "RCOG Green-top Guideline No. 68 (2016): Epilepsy in Pregnancy"
+ },
+ {
+  "id": "gtg-69-nausea-vomiting-hyperemesis",
+  "title": "RCOG Green-top Guideline No. 69 (2024): The Management of Nausea and Vomiting in Pregnancy and Hyperemesis Gravidarum"
+ },
+ {
+  "id": "gtg-70-bladder-pain-syndrome",
+  "title": "RCOG Green-top Guideline No. 70 (2016): Management of Bladder Pain Syndrome"
+ },
+ {
+  "id": "gtg-71-inherited-bleeding-disorders",
+  "title": "RCOG Green-top Guideline No. 71 (2017): Management of Inherited Bleeding Disorders in Pregnancy"
+ },
+ {
+  "id": "gtg-72-obesity-in-pregnancy",
+  "title": "RCOG Green-top Guideline No. 72 (2018): Care of Women with Obesity in Pregnancy"
+ },
+ {
+  "id": "gtg-73-pprom",
+  "title": "RCOG Green-top Guideline No. 73 (2019): Care of Women Presenting with Suspected Preterm Prelabour Rupture of Membranes from 24+0 Weeks of Gestation"
+ },
+ {
+  "id": "gtg-74-antenatal-corticosteroids",
+  "title": "RCOG Green-top Guideline No. 74 (2022): Antenatal Corticosteroids to Reduce Neonatal Morbidity and Mortality"
+ },
+ {
+  "id": "gtg-75-cervical-cerclage",
+  "title": "RCOG Green-top Guideline No. 75 (2022): Cervical Cerclage"
+ },
+ {
+  "id": "gtg-76-thyroid-in-pregnancy",
+  "title": "RCOG Green-top Guideline No. 76 (2025): Management of Thyroid Disorders in Pregnancy"
+ },
+ {
+  "id": "gtg-8-amniocentesis-cvs",
+  "title": "RCOG Green-top Guideline No. 8 (2021): Amniocentesis and Chorionic Villus Sampling"
  },
  {
   "id": "rfa-cosrh-iuc",
@@ -612,16 +1112,44 @@
   "title": "TOG 2023: A Focus on Progesterone in Hormone Replacement Therapy"
  },
  {
+  "id": "tog-2023-race-finish-line",
+  "title": "TOG 2023: A race to the finish line"
+ },
+ {
   "id": "tog-2023-acute-coronary-syndrome",
   "title": "TOG 2023: Acute Coronary Syndrome in Pregnancy"
+ },
+ {
+  "id": "tog-2023-authors-reply-advanced-abdominal",
+  "title": "TOG 2023: Authors' Reply - Advanced Abdominal Pregnancy"
+ },
+ {
+  "id": "tog-2023-authors-reply-re-androgens",
+  "title": "TOG 2023: Authors' reply re- Androgens in postmenopausal women"
  },
  {
   "id": "tog-2023-competence-confidentiality",
   "title": "TOG 2023: Competence and Confidentiality in Paediatric and Adolescent Gynaecology"
  },
  {
+  "id": "tog-2023-extra-corporeal-membrane",
+  "title": "TOG 2023: Extra corporeal membrane oxygenation (ECMO) in pregnant and postpartum women"
+ },
+ {
+  "id": "tog-2023-facilitating-hiv-testing",
+  "title": "TOG 2023: Facilitating HIV testing in colposcopy clinics to improve identification of HIV in a hidden population"
+ },
+ {
+  "id": "tog-2023-gastrointestinal-congenital",
+  "title": "TOG 2023: Gastrointestinal congenital anomalies requiring surgery- diagnosis, counselling, and management"
+ },
+ {
   "id": "tog-2023-hpv-independent-cervical-cancer",
   "title": "TOG 2023: HPV-independent cervical cancer"
+ },
+ {
+  "id": "tog-2023-hyperlipidaemia-severe",
+  "title": "TOG 2023: Hyperlipidaemia and severe hypertriglyceridaemia in pregnancy"
  },
  {
   "id": "tog-2023-information-sharing",
@@ -632,6 +1160,54 @@
   "title": "TOG 2023: Interventional Radiology in Obstetrics and Gynaecology"
  },
  {
+  "id": "tog-2023-issue-information",
+  "title": "TOG 2023: Issue Information"
+ },
+ {
+  "id": "tog-2023-issue-information-2",
+  "title": "TOG 2023: Issue Information"
+ },
+ {
+  "id": "tog-2023-issue-information-3",
+  "title": "TOG 2023: Issue Information"
+ },
+ {
+  "id": "tog-2023-issue-information-4",
+  "title": "TOG 2023: Issue Information"
+ },
+ {
+  "id": "tog-2023-key-messages-uk-ireland",
+  "title": "TOG 2023: Key messages from the UK and Ireland Confidential Enquiries into Maternal Death and Morbidity 2022"
+ },
+ {
+  "id": "tog-2023-management-bartholin-s-cyst",
+  "title": "TOG 2023: Management of Bartholin's cyst and abscess"
+ },
+ {
+  "id": "tog-2023-management-term-breech",
+  "title": "TOG 2023: Management of term breech presentation"
+ },
+ {
+  "id": "tog-2023-medicine-media",
+  "title": "TOG 2023: Medicine and the media"
+ },
+ {
+  "id": "tog-2023-menopause-mental-health",
+  "title": "TOG 2023: Menopause and mental health"
+ },
+ {
+  "id": "tog-2023-non-immune-hydrops-fetalis",
+  "title": "TOG 2023: Non-immune hydrops fetalis- a practical guide for obstetricians"
+ },
+ {
+  "id": "tog-2023-obstetricians-midwives",
+  "title": "TOG 2023: Obstetricians and midwives- an embarrassing history"
+ },
+ {
+  "id": "tog-2023-pitfalls-prenatal-diagnosis",
+  "title": "TOG 2023: Pitfalls of prenatal diagnosis associated with mosaicism"
+ },
+ {
   "id": "tog-2023-postpartum-perineal-wound",
   "title": "TOG 2023: Postpartum Perineal Wound Dehiscence"
  },
@@ -640,8 +1216,48 @@
   "title": "TOG 2023: Premenstrual Disorders Including Syndrome and Dysphoric Disorder"
  },
  {
+  "id": "tog-2023-prenatal-genomic-testing",
+  "title": "TOG 2023: Prenatal genomic testing for ultrasound-detected fetal structural anomalies"
+ },
+ {
+  "id": "tog-2023-quantification-blood-loss",
+  "title": "TOG 2023: Quantification of blood loss in obstetric haemorrhage- implications on intervention and transfusion"
+ },
+ {
+  "id": "tog-2023-re-advanced-abdominal-pregnancy",
+  "title": "TOG 2023: Re- Advanced abdominal pregnancy- challenges, update and review current management"
+ },
+ {
+  "id": "tog-2023-re-androgens-postmenopausal",
+  "title": "TOG 2023: Re- Androgens in postmenopausal women"
+ },
+ {
+  "id": "tog-2023-re-working-remotely-perspective",
+  "title": "TOG 2023: Re- Working remotely- a perspective on telemedicine in delivery of obstetrics and gynaecology health care"
+ },
+ {
+  "id": "tog-2023-recent-trends-molecular-testing",
+  "title": "TOG 2023: Recent trends in molecular testing and maintenance targeted therapies in ovarian cancer"
+ },
+ {
   "id": "tog-2023-sentinel-lymph-node-mapping",
   "title": "TOG 2023: Sentinel Lymph Node Mapping in the Modern Management of Gynaecological Malignancy"
+ },
+ {
+  "id": "tog-2023-spotlight-abortion-care",
+  "title": "TOG 2023: Spotlight on\u2026 abortion care"
+ },
+ {
+  "id": "tog-2023-spotlight-intrapartum-care",
+  "title": "TOG 2023: Spotlight on\u2026 intrapartum care"
+ },
+ {
+  "id": "tog-2023-spotlight-maternal-medicine",
+  "title": "TOG 2023: Spotlight on\u2026 maternal medicine"
+ },
+ {
+  "id": "tog-2023-spotlight-menopause",
+  "title": "TOG 2023: Spotlight on\u2026 menopause"
  },
  {
   "id": "tog-2023-thromboprophylaxis-gynaecology",
@@ -652,20 +1268,112 @@
   "title": "TOG 2023: Tuberculosis in Pregnancy"
  },
  {
+  "id": "tog-2023-ukmidss-update",
+  "title": "TOG 2023: UKMidSS update"
+ },
+ {
+  "id": "tog-2023-ukoss-update",
+  "title": "TOG 2023: UKOSS update"
+ },
+ {
+  "id": "tog-2023-update",
+  "title": "TOG 2023: Update"
+ },
+ {
   "id": "tog-2023-valvular-heart-disease-pregnancy",
   "title": "TOG 2023: Valvular Heart Disease in Pregnancy"
+ },
+ {
+  "id": "tog-2023-vnotes-vaginal-natural-orifice",
+  "title": "TOG 2023: vNOTES (vaginal Natural Orifice Transluminal Endoscopic Surgery)- is this the future of gynaecological surgery-"
+ },
+ {
+  "id": "tog-2023-vulval-disorders-paediatric",
+  "title": "TOG 2023: Vulval disorders in paediatric and adolescent patients and their management"
+ },
+ {
+  "id": "tog-2023-ve-learnt-prof-james-drife",
+  "title": "TOG 2023: What I've learnt\u2026 with Prof James Drife"
+ },
+ {
+  "id": "tog-2023-s-new-guidance-faculty-sexual",
+  "title": "TOG 2023: What's new in guidance- Faculty of Sexual and Reproductive Healthcare (FSRH) update"
+ },
+ {
+  "id": "tog-2024-proactive-safety-approach",
+  "title": "TOG 2024: A proactive safety approach to delivering safer care in obstetrics and gynaecology"
+ },
+ {
+  "id": "tog-2024-tribute-professor-linda-cardozo",
+  "title": "TOG 2024: A tribute to Professor Linda Cardozo"
+ },
+ {
+  "id": "tog-2024-abdominal-wall-incisional",
+  "title": "TOG 2024: Abdominal wall incisional hernias- techniques to minimise the risks in open gynaecological surgery"
+ },
+ {
+  "id": "tog-2024-ai-medicine-introduction",
+  "title": "TOG 2024: AI in medicine- an introduction to the potential benefits and challenges, and why doctors need to be involved"
+ },
+ {
+  "id": "tog-2024-authors-reply-large-gestational",
+  "title": "TOG 2024: Authors' Reply - Large for Gestational Age Babies in Non-Diabetic Mothers"
+ },
+ {
+  "id": "tog-2024-authors-reply-management-term",
+  "title": "TOG 2024: Authors' Reply - Management of Term Breech Presentation"
+ },
+ {
+  "id": "tog-2024-cosmetic-gynaecology",
+  "title": "TOG 2024: Cosmetic gynaecology"
+ },
+ {
+  "id": "tog-2024-endometriosis-subfertility",
+  "title": "TOG 2024: Endometriosis and subfertility"
  },
  {
   "id": "tog-2024-endometriosis-as-risk-factor",
   "title": "TOG 2024: Endometriosis as a Risk Factor for Ovarian Cancer: An Update on Screening, Risk Reduction, Treatment and Prognosis"
  },
  {
+  "id": "tog-2024-ethoss-update",
+  "title": "TOG 2024: EthOSS update"
+ },
+ {
+  "id": "tog-2024-gynaecological-pathology",
+  "title": "TOG 2024: Gynaecological pathology and assisted reproductive treatment- can we increase the chances of successful treatment by optimising the pelvis-"
+ },
+ {
   "id": "tog-2024-heavy-menstrual-bleeding",
   "title": "TOG 2024: Heavy Menstrual Bleeding in Adolescents: How to Investigate and How to Manage"
  },
  {
+  "id": "tog-2024-not-more-engaged-surgical-safety",
+  "title": "TOG 2024: How we WHO- why are we not more engaged with the WHO Surgical Safety Checklist-"
+ },
+ {
   "id": "tog-2024-hipec-ovarian-cancer",
   "title": "TOG 2024: Hyperthermic Intraperitoneal Chemotherapy (HIPEC) in the Management of Ovarian Cancer"
+ },
+ {
+  "id": "tog-2024-issue-information",
+  "title": "TOG 2024: Issue Information"
+ },
+ {
+  "id": "tog-2024-issue-information-2",
+  "title": "TOG 2024: Issue Information"
+ },
+ {
+  "id": "tog-2024-issue-information-3",
+  "title": "TOG 2024: Issue Information"
+ },
+ {
+  "id": "tog-2024-issue-information-4",
+  "title": "TOG 2024: Issue Information"
+ },
+ {
+  "id": "tog-2024-mbrrace-uk-update-key-messages",
+  "title": "TOG 2024: MBRRACE-UK update- Key messages from the UK and Ireland Confidential Enquiries into Maternal Death and Morbidity 2023"
  },
  {
   "id": "tog-2024-premature-ovarian-insufficiency",
@@ -676,8 +1384,48 @@
   "title": "TOG 2024: Psychotropic Medications in the Perinatal Period"
  },
  {
+  "id": "tog-2024-re-information-sharing",
+  "title": "TOG 2024: Re- Information sharing and communication in management of large for gestational age babies in non-diabetic mothers"
+ },
+ {
+  "id": "tog-2024-re-management-term-breech",
+  "title": "TOG 2024: Re- Management of term breech presentation"
+ },
+ {
+  "id": "tog-2024-sarcoidosis-pregnancy",
+  "title": "TOG 2024: Sarcoidosis in pregnancy"
+ },
+ {
+  "id": "tog-2024-spotlight-antenatal-genetic",
+  "title": "TOG 2024: Spotlight on\u2026 antenatal genetic testing"
+ },
+ {
+  "id": "tog-2024-spotlight-endometriosis",
+  "title": "TOG 2024: Spotlight on\u2026 endometriosis"
+ },
+ {
+  "id": "tog-2024-spotlight-global-women-s-health",
+  "title": "TOG 2024: Spotlight on\u2026 global women's health"
+ },
+ {
+  "id": "tog-2024-spotlight-paediatric-adolescent",
+  "title": "TOG 2024: Spotlight on\u2026 paediatric and adolescent gynaecology"
+ },
+ {
   "id": "tog-2024-surgical-techniques-ovarian",
   "title": "TOG 2024: Surgical Techniques for Ovarian Endometriosis"
+ },
+ {
+  "id": "tog-2024-telemedicine-remote-training",
+  "title": "TOG 2024: Telemedicine and remote training- the impact on obstetrics and gynaecology training"
+ },
+ {
+  "id": "tog-2024-ukoss-update",
+  "title": "TOG 2024: UKOSS update"
+ },
+ {
+  "id": "tog-2024-ukoss-update-2",
+  "title": "TOG 2024: UKOSS update"
  },
  {
   "id": "tog-2024-urethral-caruncle",
@@ -688,6 +1436,46 @@
   "title": "TOG 2024: Vulval Intraepithelial Neoplasia"
  },
  {
+  "id": "tog-2024-m-learning-holly-baker-rand",
+  "title": "TOG 2024: What I'm learning\u2026 with Holly Baker-Rand"
+ },
+ {
+  "id": "tog-2024-ve-learnt-donna-ockenden",
+  "title": "TOG 2024: What I've learnt\u2026 with Donna Ockenden"
+ },
+ {
+  "id": "tog-2024-ve-learnt-kate-harding",
+  "title": "TOG 2024: What I've learnt\u2026 with Kate Harding"
+ },
+ {
+  "id": "tog-2024-ive-learnt-eddie-morris",
+  "title": "TOG 2024: What I\u2019ve learnt\u2026 with Eddie Morris"
+ },
+ {
+  "id": "tog-2024-s-new-guidance-scientific-imp-2",
+  "title": "TOG 2024: What's new in guidance- Scientific Impact Paper summary"
+ },
+ {
+  "id": "tog-2024-s-new-guidance-scientific-impact",
+  "title": "TOG 2024: What's new in guidance- Scientific Impact Paper summary"
+ },
+ {
+  "id": "tog-2024-s-new-guidance-updates",
+  "title": "TOG 2024: What's new in guidance- Updates in obstetrics"
+ },
+ {
+  "id": "tog-2024-s-new-guidance-urinary",
+  "title": "TOG 2024: What's new in guidance- Urinary incontinence and pelvic organ prolapse (NICE guideline NG 123)"
+ },
+ {
+  "id": "tog-2024-women-s-health-climate-crisis",
+  "title": "TOG 2024: Women's health, the climate crisis and the pathway to a net-zero health system"
+ },
+ {
+  "id": "tog-2025-review-global-inequalities",
+  "title": "TOG 2025: A review of the global inequalities in the management of gynaecological cancers"
+ },
+ {
   "id": "tog-2025-abdominal-wall-catheters",
   "title": "TOG 2025: Abdominal Wall Catheters for Postoperative Analgesia in Open Gynaecological Procedures"
  },
@@ -696,8 +1484,24 @@
   "title": "TOG 2025: Acute Liver Disorders in the Third Trimester: AFLP, HELLP and Infectious Hepatitis"
  },
  {
+  "id": "tog-2025-addressing-performance-anxiety",
+  "title": "TOG 2025: Addressing performance anxiety and unlocking the potential of SAS doctors"
+ },
+ {
   "id": "tog-2025-applications-cell-free-fetal-dna",
   "title": "TOG 2025: Applications for Cell-Free Fetal DNA Testing Beyond Common Aneuploidy"
+ },
+ {
+  "id": "tog-2025-authors-reply-performance",
+  "title": "TOG 2025: Authors' Reply - Performance Anxiety and SAS Doctors"
+ },
+ {
+  "id": "tog-2025-letter-reply-psychotropic",
+  "title": "TOG 2025: Authors' Reply - Psychotropic Medication in the Perinatal Period"
+ },
+ {
+  "id": "tog-2025-authors-reply-re-covid-19",
+  "title": "TOG 2025: Authors' reply re- \u2018COVID-19 in pregnancy\u2019"
  },
  {
   "id": "tog-2025-bhiva-guidelines-management-hiv",
@@ -712,12 +1516,48 @@
   "title": "TOG 2025: Cervical Cancer Elimination: What, How and Who?"
  },
  {
+  "id": "tog-2025-core-determinants-positive",
+  "title": "TOG 2025: Core determinants of a positive workplace- leadership, culture and engagement"
+ },
+ {
+  "id": "tog-2025-covid-19-pregnancy",
+  "title": "TOG 2025: COVID-19 in pregnancy"
+ },
+ {
   "id": "tog-2025-enhanced-recovery-revisited",
   "title": "TOG 2025: Enhanced Recovery Revisited: What Day-Case Hysterectomies Can Learn from Team GB Elite Athletes"
  },
  {
   "id": "tog-2025-hirsutism",
   "title": "TOG 2025: Hirsutism: A Guide for the Obstetrician and Gynaecologist"
+ },
+ {
+  "id": "tog-2025-issue-information",
+  "title": "TOG 2025: Issue Information"
+ },
+ {
+  "id": "tog-2025-issue-information-2",
+  "title": "TOG 2025: Issue Information"
+ },
+ {
+  "id": "tog-2025-issue-information-3",
+  "title": "TOG 2025: Issue Information"
+ },
+ {
+  "id": "tog-2025-issue-information-4",
+  "title": "TOG 2025: Issue Information"
+ },
+ {
+  "id": "tog-2025-management-cytomegalovirus",
+  "title": "TOG 2025: Management of cytomegalovirus infection in pregnancy"
+ },
+ {
+  "id": "tog-2025-mbrrace-uk-update-key-messages",
+  "title": "TOG 2025: MBRRACE-UK update- key messages from the UK and Ireland Confidential Enquiries into Maternal Death and Morbidity 2024"
+ },
+ {
+  "id": "tog-2025-menopause-care-alternatives",
+  "title": "TOG 2025: Menopause care- alternatives to hormone replacement therapy"
  },
  {
   "id": "tog-2025-new-technologies-management",
@@ -740,8 +1580,16 @@
   "title": "TOG 2025: Ovarian Torsion: A Modern Approach to Management"
  },
  {
+  "id": "tog-2025-performance-anxiety-implications",
+  "title": "TOG 2025: Performance anxiety- implications for obstetricians and gynaecologists"
+ },
+ {
   "id": "tog-2025-perinatal-mental-health",
   "title": "TOG 2025: Perinatal Mental Health: An Overview of Pathology, Services and the Law"
+ },
+ {
+  "id": "tog-2025-placenta-accreta-spectrum-2",
+  "title": "TOG 2025: Placenta accreta spectrum- management update"
  },
  {
   "id": "tog-2025-placenta-accreta-spectrum",
@@ -752,8 +1600,64 @@
   "title": "TOG 2025: Preventing and Reducing the Morbidity and Mortality of Preterm Birth in Singleton Pregnancies"
  },
  {
+  "id": "tog-2025-re-covid-19-pregnancy",
+  "title": "TOG 2025: Re- COVID-19 in pregnancy"
+ },
+ {
+  "id": "tog-2025-letter-psychotropic-medication",
+  "title": "TOG 2025: Re- The use of psychotropic medication in the perinatal period"
+ },
+ {
+  "id": "tog-2025-spotlight-genomics",
+  "title": "TOG 2025: Spotlight on\u2026 genomics"
+ },
+ {
+  "id": "tog-2025-spotlight-gynaecological-cancer",
+  "title": "TOG 2025: Spotlight on\u2026 gynaecological cancer"
+ },
+ {
+  "id": "tog-2025-spotlight-maternal-medicine",
+  "title": "TOG 2025: Spotlight on\u2026 maternal medicine"
+ },
+ {
+  "id": "tog-2025-spotlight-minimally-invasive",
+  "title": "TOG 2025: Spotlight on\u2026 minimally invasive surgery"
+ },
+ {
+  "id": "tog-2025-role-nhs-resolution-maternity",
+  "title": "TOG 2025: The role of NHS Resolution in the maternity safety landscape in England"
+ },
+ {
+  "id": "tog-2025-ukoss-update",
+  "title": "TOG 2025: UKOSS update"
+ },
+ {
   "id": "tog-2025-vulvovaginal-cysts",
   "title": "TOG 2025: Vulvovaginal Cysts: Differentiation and Management"
+ },
+ {
+  "id": "tog-2025-ve-learnt-andrew-shennan",
+  "title": "TOG 2025: What I've learnt\u2026 with Andrew Shennan"
+ },
+ {
+  "id": "tog-2025-ve-learnt-mark-kilby",
+  "title": "TOG 2025: What I've Learnt\u2026 with Mark Kilby"
+ },
+ {
+  "id": "tog-2025-ve-learnt-prof-emma-crosbie",
+  "title": "TOG 2025: What I've learnt\u2026 With Prof Emma Crosbie"
+ },
+ {
+  "id": "tog-2025-ve-learnt-prof-marian-knight",
+  "title": "TOG 2025: What I've learnt\u2026 with Prof. Marian Knight"
+ },
+ {
+  "id": "tog-2025-s-new-guidance-evidence-based",
+  "title": "TOG 2025: What's new in guidance- Evidence-based management of patients with endometriosis undergoing assisted conception"
+ },
+ {
+  "id": "tog-2025-s-new-guidance-unscheduled",
+  "title": "TOG 2025: What's new in guidance- Unscheduled bleeding on hormone replacement therapy"
  },
  {
   "id": "tog-2025-uterine-compression-suture",
@@ -764,16 +1668,152 @@
   "title": "TOG 2026: A Guide to Laparoscopically Restoring Anatomy in the Ventrofixed Uterus"
  },
  {
+  "id": "tog-2026-advances-ultrasound-diagnosis",
+  "title": "TOG 2026: Advances In Ultrasound For The Diagnosis Of Endometriosis"
+ },
+ {
+  "id": "tog-2026-amenorrhoea-adolescents-guide",
+  "title": "TOG 2026: Amenorrhoea In Adolescents - A Guide To Management"
+ },
+ {
   "id": "tog-2026-assessment-fetal-growth-twin",
   "title": "TOG 2026: Assessment of Fetal Growth in Twin Pregnancies: Evidence-Based Practice"
+ },
+ {
+  "id": "tog-2026-authors-reply-re-management",
+  "title": "TOG 2026: Authors' Reply Re- The Management of Isolated Abnormal Amniotic Fluid Volume in Pregnancy"
+ },
+ {
+  "id": "tog-2026-civility-cornerstone-positive",
+  "title": "TOG 2026: Civility as a cornerstone for a positive culture and safe care"
+ },
+ {
+  "id": "tog-2026-early-pregnancy-call",
+  "title": "TOG 2026: Early Pregnancy For The On-Call Gynaecologist"
  },
  {
   "id": "tog-2026-elevated-human-chorionic",
   "title": "TOG 2026: Elevated Human Chorionic Gonadotrophin Levels Outside of Pregnancy: A Screening Algorithm"
  },
  {
+  "id": "tog-2026-fibroids-fertility-evolution",
+  "title": "TOG 2026: Fibroids and Fertility- Evolution of Practice and Future Outlook"
+ },
+ {
+  "id": "tog-2026-issue-information",
+  "title": "TOG 2026: Issue Information"
+ },
+ {
+  "id": "tog-2026-issue-information-2",
+  "title": "TOG 2026: Issue Information"
+ },
+ {
+  "id": "tog-2026-issue-information-3",
+  "title": "TOG 2026: Issue Information"
+ },
+ {
+  "id": "tog-2026-lichen-sclerosus-obstetrician",
+  "title": "TOG 2026: Lichen Sclerosus for the Obstetrician- A Review of Comprehensive Care for Pregnancy, Parturition, Post-Partum and Breastfeeding"
+ },
+ {
+  "id": "tog-2026-management-azoospermia",
+  "title": "TOG 2026: Management of Azoospermia- A Systematic Approach"
+ },
+ {
   "id": "tog-2026-management-isolated-abnormal",
   "title": "TOG 2026: Management of Isolated Abnormal Amniotic Fluid Volume in Pregnancy"
+ },
+ {
+  "id": "tog-2026-meeting-challenges-supporting",
+  "title": "TOG 2026: Meeting the Challenges of Supporting Requests for Maternity Care \u2018Outside of Guidance\u2019"
+ },
+ {
+  "id": "tog-2026-mind-ureter-tips-tricks-ureteric",
+  "title": "TOG 2026: Mind The Ureter - Tips And Tricks For Ureteric Tracking In Gynaecological Surgery"
+ },
+ {
+  "id": "tog-2026-muscle-menopause",
+  "title": "TOG 2026: Muscle and the Menopause"
+ },
+ {
+  "id": "tog-2026-neurovascular-disorders",
+  "title": "TOG 2026: Neurovascular Disorders in Pregnancy- Prevalence, Clinical Assessment and Management\u2014A Review of the Literature"
+ },
+ {
+  "id": "tog-2026-re-preventing-reducing-morbidity",
+  "title": "TOG 2026: Re - Preventing And Reducing The Morbidity And Mortality Of Preterm Birth In Singleton Pregnancies"
+ },
+ {
+  "id": "tog-2026-re-management-cytomegalovirus",
+  "title": "TOG 2026: Re- Management of cytomegalovirus infection in pregnancy"
+ },
+ {
+  "id": "tog-2026-re-management-isolated-abnormal",
+  "title": "TOG 2026: Re- Management of Isolated Abnormal Amniotic Fluid Volume in Pregnancy- Time to Retire TORCH- An Outdated Test in Modern Obstetric Practice"
+ },
+ {
+  "id": "tog-2026-letter-abnormal-amniotic-fluid",
+  "title": "TOG 2026: Re- The Management of Isolated Abnormal Amniotic Fluid Volume in Pregnancy"
+ },
+ {
+  "id": "tog-2026-spotlight-fetal-medicine",
+  "title": "TOG 2026: Spotlight On Fetal Medicine"
+ },
+ {
+  "id": "tog-2026-spotlight-early-pregnancy",
+  "title": "TOG 2026: Spotlight on\u2026 Early Pregnancy Complications"
+ },
+ {
+  "id": "tog-2026-spotlight-urogynaecology",
+  "title": "TOG 2026: Spotlight on\u2026 urogynaecology"
+ },
+ {
+  "id": "tog-2026-management-chronic-pain",
+  "title": "TOG 2026: The management of chronic pain in pregnancy"
+ },
+ {
+  "id": "tog-2026-management-uterine-fibroids",
+  "title": "TOG 2026: The Management Of Uterine Fibroids In Patients With Fertility Aspirations"
+ },
+ {
+  "id": "tog-2026-vaginal-pessaries-pelvic-organ",
+  "title": "TOG 2026: The Use of Vaginal Pessaries for Pelvic Organ Prolapse"
+ },
+ {
+  "id": "tog-2026-tog-spotlight-infection",
+  "title": "TOG 2026: TOG Spotlight on\u2026 Infection"
+ },
+ {
+  "id": "tog-2026-unexplained-infertility-update",
+  "title": "TOG 2026: Unexplained Infertility- An Update"
+ },
+ {
+  "id": "tog-2026-ve-learnt-sabaratnam-arulkumaran",
+  "title": "TOG 2026: What I've Learnt... With Sabaratnam Arulkumaran"
+ },
+ {
+  "id": "tog-2026-ve-learnt-cindy-farquhar",
+  "title": "TOG 2026: What I've Learnt\u2026 with Cindy Farquhar"
+ },
+ {
+  "id": "tog-2026-ve-learnt-laura-hipple",
+  "title": "TOG 2026: What I've Learnt\u2026 With Laura Hipple"
+ },
+ {
+  "id": "tog-2026-ve-learnt-thomas-ind",
+  "title": "TOG 2026: What I've Learnt\u2026 With Thomas Ind"
+ },
+ {
+  "id": "tog-2026-s-new-guidance-international",
+  "title": "TOG 2026: What's New In Guidance International Menopause Society Recommendations"
+ },
+ {
+  "id": "tog-2026-s-new-guidance-scientific-impact",
+  "title": "TOG 2026: What's New in Guidance- Scientific Impact Paper Summary- Progress in Cervical Cancer Prevention in the UK"
+ },
+ {
+  "id": "tog-2026-s-new-guidance-updates",
+  "title": "TOG 2026: What's new in guidance- Updates in obstetrics"
  },
  {
   "id": "togs-discussion-schedule-jan-2027",

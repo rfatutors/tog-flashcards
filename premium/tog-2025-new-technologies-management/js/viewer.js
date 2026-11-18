@@ -1905,7 +1905,7 @@ function start() {
     return;
   }
 
-  pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf.worker.min.js';
+  pdfjsLib.GlobalWorkerOptions.workerSrc = '../_lib/pdf.worker.min.js';
 
   loadBytes().then(function (bytes) {
     bootPhase = 'parse';
