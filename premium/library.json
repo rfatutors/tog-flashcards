@@ -568,6 +568,10 @@
   "title": "RCOG Green-top Guideline No. 21 (2016): Diagnosis and Management of Ectopic Pregnancy"
  },
  {
+  "id": "gtg-26-assisted-vaginal-birth",
+  "title": "RCOG Green-top Guideline No. 26 (2020): Assisted Vaginal Birth"
+ },
+ {
   "id": "gtg-27a-placenta-praevia-accreta",
   "title": "RCOG Green-top Guideline No. 27a (2026): Placenta Praevia and Placenta Accreta Spectrum - Diagnosis and Management"
  },
@@ -652,6 +656,10 @@
   "title": "RCOG Green-top Guideline No. 53 (2015): Female Genital Mutilation and its Management"
  },
  {
+  "id": "gtg-54a-malaria-prevention",
+  "title": "RCOG Green-top Guideline No. 54a (2010): The Prevention of Malaria in Pregnancy"
+ },
+ {
   "id": "gtg-54b-malaria-in-pregnancy",
   "title": "RCOG Green-top Guideline No. 54b (2010): The Diagnosis and Treatment of Malaria in Pregnancy"
  },
@@ -668,12 +676,20 @@
   "title": "RCOG Green-top Guideline No. 57 (2026): Reduced Fetal Movements"
  },
  {
+  "id": "gtg-59-outpatient-hysteroscopy",
+  "title": "RCOG Green-top Guideline No. 59 (2024): Outpatient Hysteroscopy"
+ },
+ {
   "id": "gtg-63-antepartum-haemorrhage",
   "title": "RCOG Green-top Guideline No. 63 (2011): Antepartum Haemorrhage"
  },
  {
   "id": "gtg-64-maternal-sepsis",
   "title": "RCOG Green-top Guideline No. 64 (2025): Identification and Management of Maternal Sepsis"
+ },
+ {
+  "id": "gtg-66-beta-thalassaemia",
+  "title": "RCOG Green-top Guideline No. 66 (2014): Management of Beta Thalassaemia in Pregnancy"
  },
  {
   "id": "gtg-68-epilepsy-in-pregnancy",
