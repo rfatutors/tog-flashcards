@@ -588,6 +588,10 @@
   "title": "RCOG Green-top Guideline No. 31 (2024): Investigation and Care of a Small-for-Gestational-Age Fetus and a Growth Restricted Fetus"
  },
  {
+  "id": "gtg-33-pcos-long-term",
+  "title": "RCOG Green-top Guideline No. 33 (2014): Long-term Consequences of Polycystic Ovary Syndrome"
+ },
+ {
   "id": "gtg-36-early-onset-gbs",
   "title": "RCOG Green-top Guideline No. 36 (2017): Prevention of Early-onset Neonatal Group B Streptococcal Disease"
  },
@@ -678,6 +682,10 @@
  {
   "id": "gtg-59-outpatient-hysteroscopy",
   "title": "RCOG Green-top Guideline No. 59 (2024): Outpatient Hysteroscopy"
+ },
+ {
+  "id": "gtg-61-sickle-cell-pregnancy",
+  "title": "RCOG Green-top Guideline No. 61 (2011): Management of Sickle Cell Disease in Pregnancy"
  },
  {
   "id": "gtg-63-antepartum-haemorrhage",
