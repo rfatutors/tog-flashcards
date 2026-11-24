@@ -424,6 +424,14 @@
   "title": "NICE CG30: Long-acting reversible contraception"
  },
  {
+  "id": "nice-htg153-laparoscopic-hysterectomy",
+  "title": "NICE HTG153 (formerly IPG239): Laparoscopic techniques for hysterectomy"
+ },
+ {
+  "id": "nice-htg229-lap-hysterectomy-endometrial",
+  "title": "NICE HTG229 (formerly IPG356): Laparoscopic hysterectomy for endometrial cancer"
+ },
+ {
   "id": "nice-ng12-2026-suspected-cancer-referral",
   "title": "NICE NG12 2026: Suspected Cancer - Recognition and Referral"
  },
@@ -512,6 +520,10 @@
   "title": "NICE NG25: Preterm labour and birth"
  },
  {
+  "id": "nice-ng3-diabetes-pregnancy",
+  "title": "NICE NG3: Diabetes in pregnancy management from preconception to the postnatal period"
+ },
+ {
   "id": "nice-ng4-safe-midwifery-staffing",
   "title": "NICE NG4: Safe midwifery staffing for maternity settings"
  },
@@ -530,6 +542,10 @@
  {
   "id": "nice-qs109-diabetes-pregnancy",
   "title": "NICE QS109 2023: Diabetes in Pregnancy"
+ },
+ {
+  "id": "nice-qs116-domestic-violence",
+  "title": "NICE QS116: Domestic violence and abuse"
  },
  {
   "id": "rfa-pregnancy-after-trachelectomy",
