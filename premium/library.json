@@ -280,6 +280,22 @@
   "title": "Lynch syndrome: summary"
  },
  {
+  "id": "mrcpi-osce-task-2026-12-01-spt",
+  "title": "MRCPI OSCE Daily Task 1 Dec 2026 - Mitral Stenosis in Pregnancy at 16 Weeks (SPT)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-01-sd",
+  "title": "MRCPI OSCE Daily Task 1 Dec 2026 - Pregnancy with Previous Coarctation of the Aorta Repair (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-10-sd",
+  "title": "MRCPI OSCE Daily Task 10 Dec 2026 - Beta Thalassaemia in Pregnancy (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-10-spt",
+  "title": "MRCPI OSCE Daily Task 10 Dec 2026 - Beta Thalassaemia Trait in Pregnancy (SPT)"
+ },
+ {
   "id": "mrcpi-osce-task-2026-11-10-long-case",
   "title": "MRCPI OSCE Daily Task 10 Nov 2026 - Molar Pregnancy (Long Case)"
  },
@@ -292,8 +308,24 @@
   "title": "MRCPI OSCE Daily Task 10 Nov 2026 - Molar Pregnancy (SPT)"
  },
  {
+  "id": "mrcpi-osce-task-2026-12-11-sd",
+  "title": "MRCPI OSCE Daily Task 11 Dec 2026 - Sickle Cell Disease in Pregnancy (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-11-spt",
+  "title": "MRCPI OSCE Daily Task 11 Dec 2026 - Sickle Cell Disease in Pregnancy: Acute Pain Crisis (SPT)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-12-long-case",
+  "title": "MRCPI OSCE Daily Task 12 Dec 2026 - Intrahepatic Cholestasis of Pregnancy (ICP) (Long Case)"
+ },
+ {
   "id": "mrcpi-osce-task-2026-11-12",
   "title": "MRCPI OSCE Daily Task 12 Nov 2026 - APH at 32 Weeks - Suspected Placenta Praevia (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-13-long-case",
+  "title": "MRCPI OSCE Daily Task 13 Dec 2026 - Gestational Thrombocytopenia in Pregnancy (Long Case)"
  },
  {
   "id": "mrcpi-osce-task-2026-11-13",
@@ -322,6 +354,14 @@
  {
   "id": "mrcpi-osce-task-2026-11-19",
   "title": "MRCPI OSCE Daily Task 19 Nov 2026 - PPROM at 26 Weeks (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-02-spt",
+  "title": "MRCPI OSCE Daily Task 2 Dec 2026 - Graves' Disease in Pregnancy at 8 Weeks (SPT)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-02-sd",
+  "title": "MRCPI OSCE Daily Task 2 Dec 2026 - Mitral Stenosis in Pregnancy at 16 Weeks (SD)"
  },
  {
   "id": "mrcpi-osce-task-2026-11-02",
@@ -360,16 +400,60 @@
   "title": "MRCPI OSCE Daily Task 27 Nov 2026 - Stillbirth at 34 Weeks (SPT)"
  },
  {
+  "id": "mrcpi-osce-task-2026-12-03-spt",
+  "title": "MRCPI OSCE Daily Task 3 Dec 2026 - Counselling a Pregnant Woman with Hepatitis B (SPT)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-03-sd",
+  "title": "MRCPI OSCE Daily Task 3 Dec 2026 - Hepatitis B in Pregnancy (SD)"
+ },
+ {
   "id": "mrcpi-osce-task-2026-11-03",
   "title": "MRCPI OSCE Daily Task 3 November 2026"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-04-sd",
+  "title": "MRCPI OSCE Daily Task 4 Dec 2026 - Advanced Maternal Age and Morbid Obesity (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-04-spt",
+  "title": "MRCPI OSCE Daily Task 4 Dec 2026 - Counselling a Woman with Morbid Obesity in Pregnancy (SPT)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-05-sd-sjogren",
+  "title": "MRCPI OSCE Daily Task 5 Dec 2026 - Sj\u00f6gren's Syndrome and Rheumatic Disease in Pregnancy (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-05-sd-sle",
+  "title": "MRCPI OSCE Daily Task 5 Dec 2026 - Systemic Lupus Erythematosus (SLE) in Pregnancy (SD)"
  },
  {
   "id": "mrcpi-osce-task-2026-11-05",
   "title": "MRCPI OSCE Daily Task 5 Nov 2026 - Threatened Miscarriage"
  },
  {
+  "id": "mrcpi-osce-task-2026-12-06-sd",
+  "title": "MRCPI OSCE Daily Task 6 Dec 2026 - Chronic Kidney Disease and Chronic Hypertension in Pregnancy (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-07-sd",
+  "title": "MRCPI OSCE Daily Task 7 Dec 2026 - Maternal Collapse Secondary to Antepartum Haemorrhage (APH) (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-08-sd",
+  "title": "MRCPI OSCE Daily Task 8 Dec 2026 - Varicella Exposure and Infection in Pregnancy (SD)"
+ },
+ {
   "id": "mrcpi-osce-task-2026-11-08",
   "title": "MRCPI OSCE Daily Task 8 Nov 2026 - Recurrent Pregnancy Loss with Uterine Septum"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-09-sd",
+  "title": "MRCPI OSCE Daily Task 9 Dec 2026 - Diabetes Mellitus in Pregnancy (SD)"
+ },
+ {
+  "id": "mrcpi-osce-task-2026-12-09-long-case",
+  "title": "MRCPI OSCE Daily Task 9 Dec 2026 - Gestational Diabetes with Suspected Fetal Macrosomia and Polyhydramnios (Long Case)"
  },
  {
   "id": "mrcpi-osce-task-2026-11-09",
